@@ -79,5 +79,9 @@ abstract class StringValueObject extends ValueObject
         return $this->string = $deserializedData;
     }
 
+    public function __toString()
+    {
+        return $string;
+    }
 
 }
