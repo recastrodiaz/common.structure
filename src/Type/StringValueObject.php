@@ -81,7 +81,7 @@ abstract class StringValueObject extends ValueObject
 
     public function __toString()
     {
-        return $string;
+        return $this->string;
     }
 
 }
